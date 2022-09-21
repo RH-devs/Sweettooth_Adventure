@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -56,10 +57,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'sweettooth_adventure.urls'
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-rhdevs-sweettoothadvent-bzvku2y5nla.ws-eu64.gitpod.io']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
