@@ -1,0 +1,27 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "ice-cream",
+            "friendly_name": "Ice-cream"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "cake",
+            "friendly_name": "Cake"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "slushies",
+            "friendly_name": "Slushies"
+        }
+    }
+    
+]

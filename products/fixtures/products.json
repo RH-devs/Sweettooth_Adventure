@@ -1,0 +1,86 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001340155",
+          "name":"Frozen Yoghurt",
+          "description":"Mango Delight",
+          "price":5.99,
+          "category":1,
+          "rating":4.8,
+          "image_url":"https://www.oliviascuisine.com/wp-content/uploads/2017/04/mango-ice-cream.jpg",
+          "image":"/media/frozen_1.jpg"
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001600425",
+          "name":"Frozen Yoghurt",
+          "description":"Strawberry Delight",
+          "price":4.99,
+          "category":1,
+          "rating":4.6,
+          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRdNOQ_wOhJopHJ2_CTgw6ykShQMpS5Ws3n4w1ieYDMeXkvWMKE1c_FqvwrpT_k4fiGaA&usqp=CAU",
+          "image":"media/frozen_2.jpg"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001730010",
+          "name":"Frozen Yoghurt",
+          "description":"Vanilla Sweetness",
+          "price":5.99,
+          "category":1,
+          "rating":4.7,
+          "image_url":"https://hips.hearstapps.com/clv.h-cdn.co/assets/17/20/1495140640-img-9820-682x1024.jpg",
+          "image":"media/frozen_3.jpg"
+       }
+    },
+    {
+       "pk":4,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5001890157",
+          "name":"Frozen Yoghurt",
+          "description":"Choco Delight",
+          "price":5.99,
+          "category":1,
+          "rating":3.5,
+          "image_url":"https://healthyrecipesblogs.com/wp-content/uploads/2020/08/chocolate-frozen-yogurt-featured-2022.jpg",
+          "image":"media/frozen_4.jpg"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002111605",
+          "name":"Frozen Yoghurt",
+          "description":"Special cone delight",
+          "price":6.99,
+          "category":1,
+          "rating":5.0,
+          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Jb5Io_wF-I4zzPHQaM-16B3ZRfTmZcBFhA&usqp=CAU",
+          "image":"media/frozen_5.jpg"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5002260206",
+          "name":"Gelato",
+          "description":"Salted Caramel",
+          "price":6.99,
+          "category":2,
+          "rating":4.7,
+          "image_url":"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/d8bba520-7ecd-4a2c-8ec1-07ebf3771cbd/Derivates/0dc21da7-8d3c-487a-a947-11d160cfba00.jpg",
+          "image":"media/gelato_1.jpg"
+       }
+    }
+]
