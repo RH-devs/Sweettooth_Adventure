@@ -58,7 +58,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'sweettooth_adventure.urls'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-rhdevs-sweettoothadvent-bzvku2y5nla.ws-eu64.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-rhdevs-sweettoothadvent-bzvku2y5nla.ws-eu67.gitpod.io']
 
 TEMPLATES = [
     {
