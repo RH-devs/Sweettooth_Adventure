@@ -35,4 +35,56 @@ Home
         </div>
     </div>
     </div>
+
+    <!-- Treats -->
+    <div class="container-fluid latest-trends bg-trends">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center text-uppercase clearance">Special Treats </h2>
+            </div> 
+               
+        </div>
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card item border-0">
+                    
+                        <span class="notify-badge">-70%</span>
+                        <img class="card-img" src="media/frozen_3.jpg" alt="image for ice-cream category">
+                    
+                    <div class="card-body pb-0 text-center la-name">
+                <h4>
+                        <a href="{% url 'products' %}?category=ice-cream" class="cta-button btn btn-ls btn-lg rounded-1">Ice-cream</a>
+                    
+                </h4>
+            
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+             <div class="card item border-0">
+                    
+                         <span class="notify-badge">-50%</span>
+                        <img class="card-img" src="media/sponge_1.jpg" alt="image for cakes category">
+                    
+                    <div class="card-body pb-0 text-center la-name">
+                        <a href="{% url 'products' %}?category=cakes" class="cta-button btn btn-ls btn-lg rounded-1">Cakes</a>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card item border-0">
+                
+                     <span class="notify-badge">-40%</span>
+                    <img class="card-img" src="media/slush_1.jpg" alt="image for slushies category">
+                
+                <div class="card-body pb-0 text-center la-name">
+                    <a href="{% url 'products' %}?category=slushies" class="cta-button btn btn-ls btn-lg rounded-1">Slushies</a>
+                </div>
+             </div>
+        </div>
+    </div>
+    </div>  
+<div>
+    <hr class="mt-0">
+</div>
 {% endblock %}
